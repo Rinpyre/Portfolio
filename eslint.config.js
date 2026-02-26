@@ -31,7 +31,7 @@ export default [
 
   // 4. Custom Plugin Rules (Hooks & Fast Refresh)
   {
-    files: ['**/*.{js,jsx}'],
+    files: ['**/*.{js,jsx,ts,tsx}'],
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh
