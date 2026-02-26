@@ -1,4 +1,4 @@
-import { Github } from 'lucide-react'
+import { SiGithub } from '@icons-pack/react-simple-icons'
 import { ProjectCard } from '@components/common'
 import { PROJECTS } from '@data'
 
@@ -21,7 +21,7 @@ export function ProjectsSection() {
                     rel="noopener noreferrer"
                     className="border-border text-metadata hover:border-accent hover:text-snow inline-flex items-center gap-2 rounded-lg border px-5 py-2.5 text-sm font-medium transition-colors"
                 >
-                    <Github className="h-5 w-5" />
+                    <SiGithub className="h-5 w-5" color="currentColor" />
                     See more on GitHub
                 </a>
             </div>

@@ -1,4 +1,5 @@
-import { Github, ExternalLink } from 'lucide-react'
+import { ExternalLink } from 'lucide-react'
+import { SiGithub } from '@icons-pack/react-simple-icons'
 
 export function ProjectCard({ title, description, techs, githubUrl, liveUrl }) {
     return (
@@ -14,7 +15,7 @@ export function ProjectCard({ title, description, techs, githubUrl, liveUrl }) {
                             aria-label={`${title} GitHub repository`}
                             className="text-metadata hover:text-snow transition-colors"
                         >
-                            <Github className="h-5 w-5" />
+                            <SiGithub className="h-5 w-5" color="currentColor" />
                         </a>
                     )}
                     {liveUrl && (

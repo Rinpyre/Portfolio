@@ -1,9 +1,11 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
+import { SiGithub } from '@icons-pack/react-simple-icons'
+import { LinkedInIcon } from './LinkedInIcon'
 import { SOCIAL_LINKS } from '@data'
 
 const ICON_MAP = {
-    GitHub: <Github className="h-5 w-5" />,
-    LinkedIn: <Linkedin className="h-5 w-5" />,
+    GitHub: <SiGithub className="h-5 w-5" color="currentColor" />,
+    LinkedIn: <LinkedInIcon />,
     Email: <Mail className="h-5 w-5" />
 }
 
