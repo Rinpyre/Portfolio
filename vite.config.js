@@ -11,7 +11,8 @@ export default defineConfig({
       '@components': resolve('src/components'),
       '@routes': resolve('src/routes'),
       '@assets': resolve('src/assets'),
-      '@utils': resolve('src/utils')
+      '@utils': resolve('src/utils'),
+      '@data': resolve('src/data/portfolio.js')
     }
   },
   plugins: [react(), tailwindcss()]
