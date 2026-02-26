@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-primary: #0f172a; /* Dark Navy - Background */
+    --color-secondary: #1e293b; /* Slate - Cards/Nav */
+    --color-tertiary: #334155; /* Slate Blue - Hover/Active States */
+    --color-border: #475569; /* Slate Grey - Borders/Dividers */
+    --color-snow: #f8fafc; /* Off-white - Primary Text */
+    --color-metadata: #94a3b8; /* Light Grey Blue - Secondary Text */
+    --color-accent: #ea580c; /* Orange - Accent (Buttons/Toggles) */
+    --color-accent-light: #f97316; /* Bright Orange - Hover */
+    --color-accent-dark: #c2410c; /* Dark Orange - Active */
+    --color-success: #22c55e; /* Green - Success/Confirm */
+    --color-error: #f04438; /* Red - Error/Danger/Delete */
+}
+
+@layer base {
+    :root {
+        color-scheme: dark;
+    }
+}
