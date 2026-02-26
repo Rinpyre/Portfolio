@@ -13,14 +13,27 @@
 
 ### Types (Must Use)
 
-- `feat:` - New feature
+- `feat:` - New user-visible feature or behavior (adds something the user can see/use)
 - `fix:` - Bug fix
 - `perf:` - Performance optimization
-- `refactor:` - Code restructure
-- `style:` - Formatting/styling
-- `chore:` - Maintenance/config
+- `refactor:` - Code restructure with NO new user-visible behavior (moving code, extracting components, renaming, reorganizing)
+- `style:` - Formatting/styling (whitespace, semicolons, CSS tweaks)
+- `chore:` - Tooling, config, build setup, dependencies, path aliases, CI — anything that supports the project but isn't user-facing
 - `docs:` - Documentation
 - `test:` - Tests
+
+### feat vs refactor vs chore — Quick Reference
+
+| Change                                      | Type       |
+| ------------------------------------------- | ---------- |
+| Add new page / component / API endpoint     | `feat`     |
+| Extract existing code into a component/util | `refactor` |
+| Move files to a different folder            | `refactor` |
+| Rename a variable/function for clarity      | `refactor` |
+| Add vite alias, tsconfig path, eslint rule  | `chore`    |
+| Add/remove/upgrade a dependency             | `chore`    |
+| Update build config (vite.config, webpack)  | `chore`    |
+| Add CV PDF or static asset to /public       | `chore`    |
 
 ### Scope (Optional but Recommended)
 
