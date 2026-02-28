@@ -18,7 +18,8 @@ export const SKILLS = [
     'TailwindCSS',
     'Laravel',
     'PHP',
-    'HTML/CSS',
+    'HTML',
+    'CSS',
     'Vite',
     'Linux'
 ]
