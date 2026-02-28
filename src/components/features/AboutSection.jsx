@@ -18,7 +18,7 @@ export function AboutSection() {
                         user-friendly applications.
                     </p>
                     <p className="text-metadata leading-relaxed">
-                        When I&apos;m not writing code, you&apos;ll find me obsession over new
+                        When I&apos;m not writing code, you&apos;ll find me obsessing over new
                         technologies that caught my eye, working on my hobby project{' '}
                         <span className="text-snow font-medium">Transeki</span>, or watching anime.
                         I&apos;m also, for better or worse, very picky about my code style to be
