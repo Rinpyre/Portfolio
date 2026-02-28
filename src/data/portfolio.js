@@ -44,7 +44,7 @@ export const PROJECTS = [
     {
         title: 'Synapse',
         description: `Log analysis and visualization tool for easier debugging and monitoring of server applications. It parses log files, extracts key information, and presents it in an intuitive dashboard by leveraging AI/ML capabilities to identify patterns and anomalies.`,
-        techs: ['Laravel', 'MSSQL', 'React', 'TailwindCSS', 'AI/ML', 'Docker'],
+        techs: ['Laravel', 'MSSQL', 'React', 'TailwindCSS', 'AI/ML', 'Python', 'Docker'],
         githubUrl: 'https://github.com/Rinpyre/Synapse',
         liveUrl: null
     },
