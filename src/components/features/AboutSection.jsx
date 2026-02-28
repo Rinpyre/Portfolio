@@ -1,5 +1,37 @@
 import { ExternalLink } from 'lucide-react'
+import {
+    SiJavascript,
+    SiReact,
+    SiNodedotjs,
+    SiGit,
+    SiDocker,
+    SiTailwindcss,
+    SiLaravel,
+    SiPhp,
+    SiHtml5,
+    SiCss,
+    SiVite,
+    SiLinux
+} from '@icons-pack/react-simple-icons'
+import { SqlIcon, RestApiIcon } from '@components/common'
 import { SKILLS } from '@data'
+
+const SKILL_ICONS = {
+    JavaScript: SiJavascript,
+    React: SiReact,
+    'Node.js': SiNodedotjs,
+    SQL: SqlIcon,
+    Git: SiGit,
+    Docker: SiDocker,
+    'REST APIs': RestApiIcon,
+    TailwindCSS: SiTailwindcss,
+    Laravel: SiLaravel,
+    PHP: SiPhp,
+    HTML: SiHtml5,
+    CSS: SiCss,
+    Vite: SiVite,
+    Linux: SiLinux
+}
 
 export function AboutSection() {
     return (
@@ -50,14 +82,18 @@ export function AboutSection() {
                         Technologies I work with
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                        {SKILLS.map((skill) => (
-                            <span
-                                key={skill}
-                                className="border-border bg-secondary text-metadata rounded-full border px-3 py-1 text-sm"
-                            >
-                                {skill}
-                            </span>
-                        ))}
+                        {SKILLS.map((skill) => {
+                            const Icon = SKILL_ICONS[skill]
+                            return (
+                                <span
+                                    key={skill}
+                                    className="border-border bg-secondary text-metadata inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-sm"
+                                >
+                                    {Icon && <Icon className="h-4 w-4 shrink-0" />}
+                                    {skill}
+                                </span>
+                            )
+                        })}
                     </div>
                 </div>
             </div>

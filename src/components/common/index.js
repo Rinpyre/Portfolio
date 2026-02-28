@@ -1,3 +1,5 @@
 export * from './ProjectCard'
 export * from './SocialLinks'
 export * from './LinkedInIcon'
+export * from './SqlIcon'
+export * from './RestApiIcon'
