@@ -1,7 +1,7 @@
 import { ExternalLink } from 'lucide-react'
-import { SiGithub } from '@icons-pack/react-simple-icons'
+import { SiGithub, SiGoogleplay } from '@icons-pack/react-simple-icons'
 
-export function ProjectCard({ title, description, techs, githubUrl, liveUrl }) {
+export function ProjectCard({ title, description, techs, githubUrl, liveUrl, googlePlayUrl }) {
     return (
         <article className="border-border bg-secondary hover:border-accent/50 flex flex-col rounded-xl border p-6 transition-colors">
             <div className="mb-3 flex items-start justify-between gap-4">
@@ -27,6 +27,17 @@ export function ProjectCard({ title, description, techs, githubUrl, liveUrl }) {
                             className="text-metadata hover:text-accent transition-colors"
                         >
                             <ExternalLink className="h-4 w-4" />
+                        </a>
+                    )}
+                    {googlePlayUrl && (
+                        <a
+                            href={googlePlayUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`${title} Google Play Store page`}
+                            className="text-metadata transition-colors hover:text-green-500"
+                        >
+                            <SiGoogleplay className="h-5 w-5" color="currentColor" />
                         </a>
                     )}
                 </div>

@@ -40,7 +40,7 @@ export const PROJECTS = [
             'Hybrid mobile app built for the historical park of the Great Union in Romania, providing visitors with information about the figures commemorated there and their significance through the use of QR codes placed on the busts.',
         techs: ['Kotlin', 'WebView', 'JavaScript', 'HTML/CSS'],
         githubUrl: null,
-        liveUrl: 'https://play.google.com/store/apps/details?id=com.fireboy00.aleeactitorilor'
+        googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.fireboy00.aleeactitorilor'
     },
     {
         title: 'Synapse',
