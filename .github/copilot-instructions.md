@@ -2,69 +2,7 @@
 
 ## Commit Message Rules (ALWAYS FOLLOW)
 
-1. Read the code changes carefully
-2. Determine the TYPE of change
-3. Identify the SCOPE if applicable
-4. Write clear, concise description
-
-### Format
-
-`<type>(<scope>): <subject>`
-
-### Types (Must Use)
-
-- `feat:` - New user-visible feature or behavior (adds something the user can see/use)
-- `fix:` - Bug fix
-- `perf:` - Performance optimization
-- `refactor:` - Code restructure with NO new user-visible behavior (moving code, extracting components, renaming, reorganizing)
-- `style:` - Formatting/styling (whitespace, semicolons, CSS tweaks)
-- `chore:` - Tooling, config, build setup, dependencies, path aliases, CI — anything that supports the project but isn't user-facing
-- `docs:` - Documentation
-- `test:` - Tests
-
-### feat vs refactor vs chore — Quick Reference
-
-| Change                                      | Type       |
-| ------------------------------------------- | ---------- |
-| Add new page / component / API endpoint     | `feat`     |
-| Extract existing code into a component/util | `refactor` |
-| Move files to a different folder            | `refactor` |
-| Rename a variable/function for clarity      | `refactor` |
-| Add vite alias, tsconfig path, eslint rule  | `chore`    |
-| Add/remove/upgrade a dependency             | `chore`    |
-| Update build config (vite.config, webpack)  | `chore`    |
-| Add CV PDF or static asset to /public       | `chore`    |
-
-### Scope (Optional but Recommended)
-
-Use component/area name in parentheses. Examples:
-
-- `feat(UserAuth):` - User authentication component
-- `fix(PaymentAPI):` - Payment endpoint
-- `perf(SearchService):` - Search functionality optimization
-- `chore(docker):` - Docker / containerization config
-- `chore(package.json):` - Dependencies
-
-### Subject Line Guidelines
-
-- ✅ Brief summary of changes
-- ✅ The changes should be presented as featured focused (human said) not component / code focused
-- ✅ Use imperative mood
-- ✅ No period at end
-- ✅ Max 50 chars
-- ✅ If multiple or complex changes, combine all in one summary and detail in body / description
-- ❌ No duplication of scope name in the summery if already in scope
-
-### Description / Body Rules
-
-- ✅ Explain the "why" and "what", not the "how"
-- ✅ Imperative mood: "add" not "added"
-- ✅ No period at end
-- ✅ Keep to one line if possible
-- ✅ Use bullet points for multiple changes
-- ✅ Reference issues/PRs if relevant
-- ❌ No code snippets
-- ❌ No vague messages like "Update stuff"
+For commit messages rules, please refer to the [Commit Message Guidelines](./instructions/commit-message-instructions.md) file. This file contains detailed instructions on how to format commit messages according to the conventional commit format, which is essential for maintaining a clear and consistent commit history.
 
 ## Pull Request Standards
 
