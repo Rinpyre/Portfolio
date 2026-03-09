@@ -1,8 +1,8 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 export const NotFoundPage = () => {
     const navigate = useNavigate()
-    const location = window.location.pathname
+    const location = useLocation().pathname
 
     return (
         <div className="flex h-screen w-full flex-col items-center justify-center">
