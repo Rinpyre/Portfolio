@@ -57,11 +57,11 @@ export const PROJECTS = [
         liveUrl: null
     },
     {
-        title: 'Personal Portfolio Website',
-        description: `The very website you're on! This portfolio showcases my projects, experience, and skills in a clean and responsive design. It features smooth scrolling, interactive elements, and a modern aesthetic to provide visitors with an engaging overview of my work and background.`,
-        techs: ['React', 'TailwindCSS', 'Vite'],
-        githubUrl: 'https://github.com/Rinpyre/Portfolio',
-        liveUrl: 'https://adrians.ro'
+        title: 'RecyShare',
+        description: `Web platform for sharing and discovering recipes, allowing users to create profiles, upload their own recipes, and explore a wide variety of dishes from around the world. It includes features like recipe categorization, user ratings, and a favorite system to save and organize preferred recipes for easy access.`,
+        techs: ['Laravel', 'SQLite', 'HTML/CSS'],
+        githubUrl: 'https://github.com/Rinpyre/RecyShare',
+        liveUrl: null
     },
     {
         title: 'Homelab',
