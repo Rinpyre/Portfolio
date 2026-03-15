@@ -1,6 +1,6 @@
 import { Mail } from 'lucide-react'
 import { SiGithub } from '@icons-pack/react-simple-icons'
-import { LinkedInIcon } from './LinkedInIcon'
+import { LinkedInIcon } from './icons/LinkedInIcon'
 import { SOCIAL_LINKS } from '@data'
 
 const ICON_MAP = {
