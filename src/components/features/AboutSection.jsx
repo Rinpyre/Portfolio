@@ -13,7 +13,7 @@ import {
     SiVite,
     SiLinux
 } from '@icons-pack/react-simple-icons'
-import { SqlIcon, RestApiIcon } from '@components/common'
+import { SqlIcon, RestApiIcon } from '@components'
 import { SKILLS } from '@data'
 
 const SKILL_ICONS = {

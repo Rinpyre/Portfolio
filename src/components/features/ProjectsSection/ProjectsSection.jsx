@@ -1,5 +1,5 @@
+import { ProjectCard } from '@components'
 import { SiGithub } from '@icons-pack/react-simple-icons'
-import { ProjectCard } from '@components/common'
 import { PROJECTS } from '@data'
 
 export function ProjectsSection() {
