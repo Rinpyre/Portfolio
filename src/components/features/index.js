@@ -1,5 +1,6 @@
 export * from './HeroSection'
 export * from './AboutSection'
 export * from './ProjectsSection'
+export * from './EducationSection'
 export * from './ExperienceSection'
 export * from './ContactSection'

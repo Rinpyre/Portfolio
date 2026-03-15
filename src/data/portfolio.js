@@ -72,6 +72,31 @@ export const PROJECTS = [
     }
 ]
 
+export const EDUCATION = [
+    {
+        degree: 'B.Sc. Software Engineering',
+        school: 'University of Southern Denmark',
+        schoolUrl: 'https://www.sdu.dk/en/uddannelse/bachelor/softwareengineering-sb/',
+        period: '2024 – 2027',
+        location: 'Sønderborg, Denmark',
+        isPlaceholder: false,
+        details: [
+            'GPA: 9.41/12.0 (Danish 7-point scale) - 3.9/4.0 (US 4-point scale)',
+            'Achieved maximum grade (12/12) in Software Engineering, Advanced Object-Oriented Programming, and Mobile Software Development courses.',
+            'Core Coursework: Distributed Systems (10/12), Web Technologies (10/12), Data Management (10/12), Algorithms & Data Structures (In Progress).'
+        ]
+    },
+    {
+        degree: 'High School Diploma, Mathematics and Computer Science',
+        school: '”Ion Luca Caragiale” College',
+        schoolUrl: 'https://cn-caragiale.ro/',
+        period: '2020 – 2024',
+        location: 'Ploiești, Romania',
+        isPlaceholder: false,
+        details: ['GPA: 9.31/10.0 (Romanian 10-point scale) - 3.72/4.0 (US 4-point scale)']
+    }
+]
+
 // TODO: Update with actual experience once I have it.
 export const EXPERIENCE = [
     {
@@ -106,6 +131,7 @@ export const EXPERIENCE = [
 export const NAV_LINKS = [
     { label: 'About', href: '#about' },
     { label: 'Projects', href: '#projects' },
+    { label: 'Education', href: '#education' },
     { label: 'Experience', href: '#experience' },
     { label: 'Contact', href: '#contact' }
 ]

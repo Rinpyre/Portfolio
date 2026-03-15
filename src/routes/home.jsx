@@ -3,6 +3,7 @@ import {
     HeroSection,
     AboutSection,
     ProjectsSection,
+    EducationSection,
     ExperienceSection,
     ContactSection
 } from '@components/features'
@@ -14,6 +15,7 @@ export const HomePage = () => (
             <HeroSection />
             <AboutSection />
             <ProjectsSection />
+            <EducationSection />
             <ExperienceSection />
             <ContactSection />
         </main>
