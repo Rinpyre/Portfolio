@@ -3,7 +3,7 @@ import { SiGithub, SiGoogleplay } from '@icons-pack/react-simple-icons'
 
 export function ProjectCard({ title, description, techs, githubUrl, liveUrl, googlePlayUrl }) {
     return (
-        <article className="border-border bg-secondary hover:border-accent/50 flex flex-col rounded-xl border p-6 transition-colors">
+        <article className="border-border bg-secondary hover:border-accent/50 flex flex-col rounded-xl border p-6 transition-all hover:-translate-y-1 hover:shadow-lg">
             <div className="mb-3 flex items-start justify-between gap-4">
                 <h3 className="text-snow text-lg font-semibold">{title}</h3>
                 <div className="flex shrink-0 items-center gap-3">
