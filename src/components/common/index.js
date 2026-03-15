@@ -1,4 +1,6 @@
 export * from './ProjectCard'
+export * from './ExperienceCard'
+export * from './EducationCard'
 export * from './SocialLinks'
 export * from './LinkedInIcon'
 export * from './SqlIcon'
