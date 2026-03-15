@@ -8,7 +8,7 @@ export function EducationSection() {
                 <span className="text-accent">Education</span>
             </h2>
 
-            <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-1">
+            <div className="grid grid-cols-1 gap-8">
                 {EDUCATION.map((education) => (
                     <EducationCard key={`${education.degree}-${education.school}`} {...education} />
                 ))}
